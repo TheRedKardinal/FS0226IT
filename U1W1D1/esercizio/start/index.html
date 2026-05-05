@@ -28,23 +28,31 @@
     <main>
         <section>
             <h2 id="chi-sono">Chi sono</h2>
-            <img src="assets/img/8b42cc6f-9ebd-476f-a423-74c649b3b6a7.JPG" alt="Foto Profilo Claudio Giasi"
-                width="200px">
+            <figure>
+                <img src="assets/img/8b42cc6f-9ebd-476f-a423-74c649b3b6a7.JPG" alt="Foto Profilo Claudio Giasi"
+                    width="200px">
+                <figcaption>Claudio Giasi</figcaption>
+            </figure>
             <p>
                 Mi chiamo Claudio Giasi e sto imparando a programmare. Studio Sviluppo Web e AI con
                 <strong>Epicode</strong>
                 e ogni giorno aggiungerò qualcosa di nuovo a questa pagina. Mi piace lavorare di squadra, leggere
                 documentazione tecnica e capire il funzionamento dietro le cose.
             </p>
+
             <p>
                 Vivo a Napoli. Ho una formazione precedente in <em>Scienze Motorie e del Benessere</em>, certificato
                 <em>Personal Trainer di Lv.3</em> e pratico <em>Calisthenics</em> da qualche anno. Attualmente sono
                 tornato
                 a studiare andando, così, a cambiare settore. Cerco un primo ruolo come sviluppatore Frontend.
             </p>
-            <a href="#inizio">Torna su</a>
-        </section>
 
+            <aside>
+                <p>Sono nerd fino al midollo, cresciuto pad alla mano e fumetti, amante della cultura orientale e nel
+                    tempo libero sono un'atleta di Calisthenics (o così mi piace definirmi)</p>
+            </aside>
+
+        </section>
 
         <section>
             <h2 id="competenze">Competenze</h2>
@@ -55,7 +63,7 @@
                 <li>Git e GitHub - versionamento del codice</li>
                 <li>Visual Studio Code - editor di lavoro</li>
             </ul>
-            <a href="#inizio">Torna su</a>
+
         </section>
 
         <section>
@@ -132,7 +140,7 @@
             <p>Costruzione di una piccola pagina web di presentazione</p>
             <a href="https://theredkardinal.github.io/First-HTML-Challenge/" target="_blank">Vedi su GitHub</a>
             <h3>Terza Challenge: Parco Nazionale di Skaftafell</h3>
-            <p>Costruione di una piccola pagina web con collegamneti funzionanti ad altre pagine (dello stessa
+            <p>Costruzione di una piccola pagina web con collegamneti funzionanti ad altre pagine (dello stessa
                 macrocategoria). Ogni pagina avente la foto di un bel paesaggio, titolo e sottotitolo, autore dello
                 scatto
                 con link funzionane alla pagina dello stesso.</p>
@@ -141,51 +149,50 @@
             <p>Costruzione del clone di una pagina HomePage di Youtube</p>
             <a href="https://theredkardinal.github.io/Challenge5---YouTube-Clone-Page/" target="_blank">Vedi su
                 GitHub</a>
-            <a href="#inizio">Torna su</a>
-            <!-- Il link interno "Torna su" qui risulta attaccato al link che manda a GitHub perché entrambi sono elementi inline, ho voluto inserirlo lo stesso per poi tornare a sistemarlo quando utilizzeremo CSS-->
+
         </section>
 
         <section>
             <h2 id="contatti">Contattami</h2>
             <p>Compila il form per scrivermi</p>
-<form action="#" method="post">
-<label for="name">Nome</label>
-<input type="text" id="name" placeholder="Il tuo nome"> <br /><br />
-<label for="surname">Cognome</label>
-<input type="text" id="surname" placeholder="Il tuo cognome"> <br /><br />
-<label for="email">Email</label>
-<input type="email" id="email" placeholder="email@esempio.it"> <br /><br />
+            <form action="#" method="post">
+                <label for="name">Nome</label>
+                <input type="text" id="name" placeholder="Il tuo nome"> <br /><br />
+                <label for="surname">Cognome</label>
+                <input type="text" id="surname" placeholder="Il tuo cognome"> <br /><br />
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="email@esempio.it"> <br /><br />
 
-<label for="name">Motivo del contatto</label>
-<select name="reason" id="reason">
-<option value="" selected></option>
-<option value="">Informazioni</option>
-<option value="">Formazione</option>
-<option value="">Proposta di lavoro</option>
-<option value="">Altro</option>
-</select>
+                <label for="name">Motivo del contatto</label>
+                <select name="reason" id="reason">
+                    <option value="" selected></option>
+                    <option value="">Informazioni</option>
+                    <option value="">Formazione</option>
+                    <option value="">Proposta di lavoro</option>
+                    <option value="">Altro</option>
+                </select>
 
-<br /><br />
+                <br /><br />
 
-<label for="answerdate">Data preferita per la risposta</label>
-<input type="date" id="answerdate">
-<label for="name">Nome</label>
-<input type="text" id="name" placeholder="Il tuo nome">
+                <label for="answerdate">Data preferita per la risposta</label>
+                <input type="date" id="answerdate">
+                <label for="name">Nome</label>
+                <input type="text" id="name" placeholder="Il tuo nome">
 
-<br /><br />
+                <br /><br />
 
-<label for="message">Messaggio</label>
-<textarea name="message" id="message" rows="5" placeholder="Scrivi qui il tuo messaggio..."></textarea>
+                <label for="message">Messaggio</label>
+                <textarea name="message" id="message" rows="5" placeholder="Scrivi qui il tuo messaggio..."></textarea>
 
-<br /><br />
-<input type="checkbox" id="contact-permission" name="contact-permission" required>
-<label for="contact-permission">Accetto di essere ricontattatto</label>
+                <br /><br />
+                <input type="checkbox" id="contact-permission" name="contact-permission" required>
+                <label for="contact-permission">Accetto di essere ricontattatto</label>
 
-<br /><br />
+                <br /><br />
 
-<button type="submit">Invia</button>
+                <button type="submit">Invia</button>
 
-</form>
+            </form>
 
 
         </section>
@@ -193,11 +200,18 @@
     </main>
     <hr />
     <footer>
-                    <p>Profilo GitHub: <a href="https://github.com/TheRedKardinal"
-                    target="_blank">https://github.com/TheRedKardinal</a></p>
-            <p>Profilo LinkedIn: <a href="https://www.linkedin.com/in/claudio-giasi-8836b5243/"
-                    target="_blank">https://www.linkedin.com/in/claudiogiasi</a>
-            </p>
+        <div class="contacts">
+            <a href="https://github.com/TheRedKardinal" target="_blank">
+                <img src="assets/img/icons8-github.svg" alt="github-logo" width="20px">
+            </a>
+
+            <a href="https://www.linkedin.com/in/claudio-giasi-8836b5243/" target="_blank">
+                <img src="assets/img/icons8-linkedin.svg" alt="linkedin-logo" width="20px">
+            </a>
+        </div>
+
+        <p>&nbsp;</p>
+
         © 2026 Claudio Giasi
     </footer>
 </body>
